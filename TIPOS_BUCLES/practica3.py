@@ -7,4 +7,4 @@
 num = int(input("Introduzca un numero entero positivo: "))
 
 for n in range(1, num + 1, 2):
-    print(n)
+    print(n, end=", ")
